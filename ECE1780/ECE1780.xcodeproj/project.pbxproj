@@ -12,7 +12,7 @@
 		4EDA3E9A18031EC4003702D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDA3E9918031EC4003702D9 /* CoreGraphics.framework */; };
 		4EDA3EA018031EC4003702D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA3E9E18031EC4003702D9 /* InfoPlist.strings */; };
 		4EDA3EA218031EC4003702D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA3EA118031EC4003702D9 /* main.m */; };
-		4EDA3EA618031EC4003702D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA3EA518031EC4003702D9 /* AppDelegate.m */; };
+		4EDA3EA618031EC4003702D9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA3EA518031EC4003702D9 /* AppDelegate.mm */; };
 		4EDA3EA818031EC4003702D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA3EA718031EC4003702D9 /* Default.png */; };
 		4EDA3EAA18031EC4003702D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA3EA918031EC4003702D9 /* Default@2x.png */; };
 		4EDA3EAC18031EC4003702D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA3EAB18031EC4003702D9 /* Default-568h@2x.png */; };
@@ -21,6 +21,12 @@
 		4EDA3EB618031EC4003702D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDA3E9718031EC4003702D9 /* Foundation.framework */; };
 		4EDA3EBE18031EC4003702D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA3EBC18031EC4003702D9 /* InfoPlist.strings */; };
 		4EDA3EC118031EC4003702D9 /* ECE1780Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA3EC018031EC4003702D9 /* ECE1780Tests.m */; };
+		4EF29CB91816C53F0059BECD /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EF29CB71816C53E0059BECD /* MainViewController.mm */; };
+		4EF29CBA1816C53F0059BECD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF29CB81816C53F0059BECD /* MainViewController.xib */; };
+		4EF29CBD1816CCD10059BECD /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF29CBC1816CCD00059BECD /* AudioController.m */; };
+		4EF29CBF1816CF2B0059BECD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF29CBE1816CF2B0059BECD /* Accelerate.framework */; };
+		4EF29CC11816CF310059BECD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF29CC01816CF310059BECD /* AudioToolbox.framework */; };
+		4EF29CC41816D4890059BECD /* FFTAccelerate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EF29CC21816D4880059BECD /* FFTAccelerate.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +49,7 @@
 		4EDA3EA118031EC4003702D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EDA3EA318031EC4003702D9 /* ECE1780-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECE1780-Prefix.pch"; sourceTree = "<group>"; };
 		4EDA3EA418031EC4003702D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4EDA3EA518031EC4003702D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EDA3EA518031EC4003702D9 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		4EDA3EA718031EC4003702D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4EDA3EA918031EC4003702D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4EDA3EAB18031EC4003702D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -53,6 +59,15 @@
 		4EDA3EBD18031EC4003702D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EDA3EBF18031EC4003702D9 /* ECE1780Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECE1780Tests.h; sourceTree = "<group>"; };
 		4EDA3EC018031EC4003702D9 /* ECE1780Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECE1780Tests.m; sourceTree = "<group>"; };
+		4EF29CB61816C53E0059BECD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4EF29CB71816C53E0059BECD /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		4EF29CB81816C53F0059BECD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4EF29CBB1816CCD00059BECD /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		4EF29CBC1816CCD00059BECD /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		4EF29CBE1816CF2B0059BECD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4EF29CC01816CF310059BECD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4EF29CC21816D4880059BECD /* FFTAccelerate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FFTAccelerate.mm; sourceTree = "<group>"; };
+		4EF29CC31816D4890059BECD /* FFTAccelerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTAccelerate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF29CC11816CF310059BECD /* AudioToolbox.framework in Frameworks */,
+				4EF29CBF1816CF2B0059BECD /* Accelerate.framework in Frameworks */,
 				4EDA3E9618031EC4003702D9 /* UIKit.framework in Frameworks */,
 				4EDA3E9818031EC4003702D9 /* Foundation.framework in Frameworks */,
 				4EDA3E9A18031EC4003702D9 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +118,8 @@
 		4EDA3E9418031EC4003702D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EF29CC01816CF310059BECD /* AudioToolbox.framework */,
+				4EF29CBE1816CF2B0059BECD /* Accelerate.framework */,
 				4EDA3E9518031EC4003702D9 /* UIKit.framework */,
 				4EDA3E9718031EC4003702D9 /* Foundation.framework */,
 				4EDA3E9918031EC4003702D9 /* CoreGraphics.framework */,
@@ -112,9 +131,16 @@
 		4EDA3E9B18031EC4003702D9 /* ECE1780 */ = {
 			isa = PBXGroup;
 			children = (
+				4EF29CC21816D4880059BECD /* FFTAccelerate.mm */,
+				4EF29CC31816D4890059BECD /* FFTAccelerate.h */,
 				4EDA3EA418031EC4003702D9 /* AppDelegate.h */,
-				4EDA3EA518031EC4003702D9 /* AppDelegate.m */,
+				4EDA3EA518031EC4003702D9 /* AppDelegate.mm */,
 				4EDA3E9C18031EC4003702D9 /* Supporting Files */,
+				4EF29CB61816C53E0059BECD /* MainViewController.h */,
+				4EF29CB71816C53E0059BECD /* MainViewController.mm */,
+				4EF29CB81816C53F0059BECD /* MainViewController.xib */,
+				4EF29CBB1816CCD00059BECD /* AudioController.h */,
+				4EF29CBC1816CCD00059BECD /* AudioController.m */,
 			);
 			path = ECE1780;
 			sourceTree = "<group>";
@@ -227,6 +253,7 @@
 				4EDA3EA818031EC4003702D9 /* Default.png in Resources */,
 				4EDA3EAA18031EC4003702D9 /* Default@2x.png in Resources */,
 				4EDA3EAC18031EC4003702D9 /* Default-568h@2x.png in Resources */,
+				4EF29CBA1816C53F0059BECD /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDA3EA218031EC4003702D9 /* main.m in Sources */,
-				4EDA3EA618031EC4003702D9 /* AppDelegate.m in Sources */,
+				4EDA3EA618031EC4003702D9 /* AppDelegate.mm in Sources */,
+				4EF29CB91816C53F0059BECD /* MainViewController.mm in Sources */,
+				4EF29CBD1816CCD10059BECD /* AudioController.m in Sources */,
+				4EF29CC41816D4890059BECD /* FFTAccelerate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +393,8 @@
 		4EDA3EC518031EC4003702D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECE1780/ECE1780-Prefix.pch";
 				INFOPLIST_FILE = "ECE1780/ECE1780-Info.plist";
@@ -374,6 +406,8 @@
 		4EDA3EC618031EC4003702D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECE1780/ECE1780-Prefix.pch";
 				INFOPLIST_FILE = "ECE1780/ECE1780-Info.plist";
@@ -435,6 +469,7 @@
 				4EDA3EC618031EC4003702D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EDA3EC718031EC4003702D9 /* Build configuration list for PBXNativeTarget "ECE1780Tests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +478,7 @@
 				4EDA3EC918031EC4003702D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
